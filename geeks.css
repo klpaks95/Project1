@@ -1,0 +1,194 @@
+body
+{
+	background-color: #FFFFF0;
+	margin:0;
+	padding: 0;
+}
+div,ul,h2,h1
+{
+	margin: 0;
+	padding: 0;
+}
+
+.top_page,.some
+{
+	display: inline-block;
+}
+.header,.branding,.menu
+{
+	display: block;
+
+}
+.wid
+{
+	width: 39%;
+
+}
+.search1
+{
+	width: 30%;
+	border-color: #4CB96B;
+}
+.head1
+{
+	width: 30%
+
+
+}
+.practice 
+{
+list-style-type: none;
+padding-left: 160px;
+padding-top: 0;
+margin-top: 0;
+}
+.practice li{
+display: inline-block;
+cursor: pointer;
+color:green;
+border: 1px solid #4CB96B;
+color: white;
+background-color: #4CB96B;
+padding:4px;
+margin-top: 0;
+
+
+}
+.practice a
+{
+	text-decoration: none;
+	color: white;
+}
+.practice a:hover
+{
+	color: orange;
+}
+.sub_menu
+{
+list-style-type: none;
+border: 1px solid #4CB96B;
+color: white;
+background-color: #4CB96B;
+margin-top: 0;
+}
+.sub_menu li {
+display: inline-block;
+padding: 5px 25px;
+cursor: pointer;
+}
+.sub_menu li:hover
+{
+	color: orange;
+}
+.login_logo
+{
+	padding-left: 350px;
+	color:red;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	font-size: 22px;
+}
+.login_logo a
+{
+	text-decoration: none;
+	color: #060;
+}
+.login_logo a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+.head1 p
+{
+	margin-top: 0;
+	padding-top: 0px;
+	color: #575757;
+}
+.head1 p:hover
+{
+	color: orange;
+}
+.head1 h1 
+{
+	margin-bottom: 0;
+	color:#4CB96B;
+	cursor: pointer;
+}
+.head1 h1:hover
+{
+	color: orange;
+}
+
+.sub_menu li{
+	position: relative;
+}
+.drop_down {
+	display: none;
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+}
+
+.drop_down_content {
+	list-style-type: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.drop_down_content li
+{
+	display: block;
+	background-color: green;
+border: 1px solid white;
+}
+.drop_down_content li:hover
+{
+	background-color: #4CB96B;
+}
+.drop_down_content a
+{
+text-decoration: none;
+color: white;
+
+}
+.drop_down_content a:hover
+{
+	color:orange;
+
+}
+.sub_menu li:hover .drop_down{
+	display: block;
+}
+.icon::after 
+   {
+        
+            content: "\25BC";
+            padding: 6px 0;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            z-index: 1;
+            text-align: center;
+            pointer-events: none;
+        
+    }
+    .left_block_head
+    {
+margin: 20px 10px;
+    }
+.left_block_item
+{
+
+	border: 1px solid;
+	width: 15%;
+	padding: 10px;
+
+}
+.left_block_item li
+{
+	display: block;
+padding:10px;
+list-style-type: none;
+
+}
