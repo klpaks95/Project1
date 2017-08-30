@@ -1,0 +1,197 @@
+<!Doctype html>
+<html>
+<head>	
+	<title>quora.com</title>
+	<link rel="stylesheet" type="text/css" href="geeks.css">
+</head>
+<body>
+	<div class="header">
+		<div class="branding">
+			<div class="top_page head1" >
+				<h1>GeeksForGeeks</h1>
+				<p>A Computer Science Portal for geeks</p>
+			</div>
+			<div class="top_page search1">
+				<form>
+					<input type="text" name="search" placeholder="custom search" >
+					<button type="button" >
+						<img src="">
+					</button>`
+				</form>
+			</div>
+			<div class="top_page wid">
+				<div>
+					<ul class="practice">
+						<li><a href="#" name="Practice">Practice</a></li>
+						<li><a href="#">Gate CS</a></li>
+						<li><a href="#">Placements</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Contribute</a></li>
+					</ul>
+				</div>
+				<div class="login_logo">
+					<a href="#">Login/Register</a>
+				</div>
+
+
+
+			</div>
+		</div>
+		<div class="menu">
+			<ul class="sub_menu">
+				<li><img src=""></li>
+				<li><span class="icon">Algo</span>
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">Analysis Of Algorithms</a></li>
+							<li><a href="#">Topicwise</a></li>
+							<li><a href="#">Algorithms paradigms</a></li>
+							<li><a href="#">All Algorithms</a></li>
+
+						</ul>
+					</div>
+				</li>
+				<li><span class="icon">DS</span>
+					<div class="drop_down">
+
+						<ul class="drop_down_content">
+							<li><a href="#">Array</a></li>
+							<li><a href="#">LinkedList</a></li>
+							<li><a href="#">Stack</a></li>
+							<li><a href="#">Queue</a></li>
+							<li><a href="#">Tree based Ds</a></li>
+							<li><a href="#">Hashing</a></li>
+							<li><a href="#">Graph</a></li>
+							<li><a href="#">Advanced Data Structures</a></li>
+							<li><a href="#">Matrix</a></li>
+							<li><a href="#">Strings</a></li>
+							<li><a href="#">All Data Structures</a></li>
+						</ul>
+
+					</div>
+				</li>
+				
+				<li><span class="icon">Languages</span>
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">C </a></li>
+							<li><a href="#">C++</a></li>
+							<li><a href="#">Java</a></li>
+							<li><a href="#">Python</a></li>
+							<li><a href="#">SQL</a></li>
+							<li><a href="#">Program Output</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><span class="icon">Interview</span>
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">Company Prep</a></li>
+							<li><a href="#">Top Topics</a></li>
+							<li><a href="#">Practice Company Questions</a></li>
+							<li><a href="#">Interview Experiences</a></li>
+							<li><a href="#">Experienced Interviews</a></li>
+							<li><a href="#">Interned Interviews</a></li>
+							<li><a href="#">Competitive Programming</a></li>
+							<li><a href="#">Design Pattern</a></li>
+							<li><a href="#">Multiple choices Quizzes</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><span class="icon">Student</span>
+
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">Campus Amasador Program</a></li>
+							<li><a href="#">Geek Of The Month</a></li>
+							<li><a href="#">Project</a></li>
+							<li><a href="#">Competitive Programming</a></li>
+							<li><a href="#">Testominal</a></li>
+
+						</ul>
+					</div>
+				</li>
+				<li><span class="icon">Gate</span>
+
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">Gate CS Corner</a></li>
+							<li><a href="#">Gate Notes</a></li>
+							<li><a href="#">Last Minute Prep</a></li>
+							<li><a href="#">Official Papers</a></li>
+							<li><a href="#">Gate 2018</a></li>
+
+						</ul>
+
+					</div>
+				</li>
+				<li><span class="icon">CS Subjects</span>
+
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">Computer Networks</a></li>
+							<li><a href="#">Operating System</a></li>
+							<li><a href="#">DBMS</a></li>
+							<li><a href="#">Computer Networks</a></li>
+							<li><a href="#">Complier Design</a></li>
+							<li><a href="#">Web Technology</a></li>
+							<li><a href="#">Digital Electronics</a></li>
+							<li><a href="#">Advanced Topics</a></li>
+
+						</ul>
+
+					</div>
+				</li>
+				<li><span class="icon">Quizzes</span>
+					<div class="drop_down">
+						<ul class="drop_down_content">
+							<li><a href="#">Languages</a></li>
+							<li><a href="#">CS Subjectwise</a></li>
+							<li><a href="#">HTML & XML</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>GBlog</li>
+				<li>Puzzels</li>
+				<li>What's new?</li>
+			</ul>
+
+		</div>
+	</div>
+	<div class="left_block_head">
+		<div class="left_block">
+			<ul class="left_block_item">
+				<li>
+					Popular Tags
+				</li>
+				
+			</ul>
+
+		</div>
+		<div class="left_block">
+			<ul class="left_block_item">
+				<li>
+					Another thing1
+				</li>
+				<li>
+					Another thing 2
+				</li>
+				<li>
+					Another thing 3
+				</li>
+			</ul>
+		</div>
+		<div class="left_block">
+			<ul class="left_block_item">
+				<li>
+					right most thing
+				</li>
+				<li>right most thing2</li>
+			</ul>
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
